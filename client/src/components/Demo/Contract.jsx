@@ -3,7 +3,7 @@ import useEth from "../../contexts/EthContext/useEth";
 
 function Contract({ value , text}) {
   const [EventValue, setEventValue] = useState("");
-  const [oldEvents, setOldEvents] = useState();
+  const [oldEvents, setOldEvents] = useState("");
   const { state: { contract}} = useEth();
 
 
